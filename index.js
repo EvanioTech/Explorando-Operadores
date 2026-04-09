@@ -26,10 +26,10 @@ console.log("O usuário " + user2 + " frequenta a festa nova? " + (age2 >= 18))
 console.log("O usuário " + user3 + " frequenta a festa nova? " + (age3 >= 18))
 console.log("O usuário " + user4 + " frequenta a festa nova? " + (age4 >= 18))
 
-let frequentaFestaPink = sexo1 === "Femenino"
+let frequentaFestaPink = sexo1 === "Feminino"
 
-console.log("O usuário " + user1 + " frequenta a festa pink? " + frequetaFestaPink)
-console.log("O usuário " + user2 + " frequenta a festa pink? " + (sexo2 === "Femenino"))
-console.log("O usuário " + user3 + " frequenta a festa pink? " + (sexo3 === "Femenino"))
-console.log("O usuário " + user4 + " frequenta a festa pink? " + (sexo4 === "Femenino"))
+console.log("O usuário " + user1 + " frequenta a festa pink? " + frequentaFestaPink)
+console.log("O usuário " + user2 + " frequenta a festa pink? " + (sexo2 === "Feminino"))
+console.log("O usuário " + user3 + " frequenta a festa pink? " + (sexo3 === "Feminino"))
+console.log("O usuário " + user4 + " frequenta a festa pink? " + (sexo4 === "Feminino"))
 
