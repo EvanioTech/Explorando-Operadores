@@ -33,3 +33,19 @@ console.log("O usuário " + user2 + " frequenta a festa pink? " + (sexo2 === "Fe
 console.log("O usuário " + user3 + " frequenta a festa pink? " + (sexo3 === "Feminino"))
 console.log("O usuário " + user4 + " frequenta a festa pink? " + (sexo4 === "Feminino"))
 
+let pessoas = [
+    ["Antonio", 30, "Masculino", "Vip"],
+    ["Maria", 25, "Feminino", "Regular"],
+    ["João", 20, "Masculino", "Regular"],
+    ["Ana", 35, "Feminino", "Vip"]
+]
+
+let prioridadeFesta = pessoas[0][3] === "Vip"
+let regularFesta = pessoas[0][3] !== "Vip"
+
+console.log("O cliente " + pessoas[0][0] + " tem " + pessoas[0][1] + " anos e é do sexo " + pessoas[0][2])
+
+console.log("O cliente " + pessoas[0][0] + " tem prioridade na festa? " + prioridadeFesta)
+console.log("O cliente " + pessoas[0][0] + " é regular na festa? " + regularFesta)
+
+
